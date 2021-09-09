@@ -14,7 +14,7 @@ const LOG_EVENT_GAME_OVER = "GAME_OVER";
 let chosenMaxLife;
 
 function getMaxUserValue() {
-  const enteredValue = prompt("Maximum life for you and monster", "100");
+  const enteredValue = prompt("Maximum life for you and monster", "95");
   let parsedValue = parseInt(enteredValue);
   if (isNaN(parsedValue) || parsedValue <= 0) {
     throw "Invalid user input, Not a Number";
